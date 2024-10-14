@@ -10,8 +10,8 @@ import com.google.gson.JsonObject;
 import com.icaro.fedeexchange.controler.Conversion;
 import com.icaro.fedeexchange.model.Casos;
 import com.icaro.fedeexchange.vista.Menu;
-import java.io.IOException;
-import java.util.List;
+
+
 
 
 /**
@@ -19,7 +19,7 @@ import java.util.List;
  * @author USUARIO
  */
 public class Main {
-    JsonObject jo = new JsonObject();
+   
     
     public static void main(String[] args) {
         double v =0;
