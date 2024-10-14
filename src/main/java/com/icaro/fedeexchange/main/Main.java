@@ -22,14 +22,16 @@ public class Main {
    
     
     public static void main(String[] args) {
+        // crear e inicializar varibles e instanciar clases
+        
         double v =0;
         String from ;
         String to;
         int opcion = 0;
         
         Base base = new Base();
-        Conversion conversion = new Conversion();
         Casos caso = new Casos();
+        Conversion conversion = new Conversion();
            
         
         boolean esEntero = false;
